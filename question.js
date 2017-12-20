@@ -15,4 +15,4 @@ statis All(){
    return this.All()[id-1]
  }
 }
-
+Question._All =[]
