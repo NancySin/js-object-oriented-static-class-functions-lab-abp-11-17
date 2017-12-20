@@ -8,7 +8,7 @@ class Question{
 save(){
   this.constructor._All.push(this)
 }
-statis All(){
+static All(){
   return this._All;
 }
  static Find(id){
